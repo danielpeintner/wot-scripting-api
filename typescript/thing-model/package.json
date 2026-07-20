@@ -24,7 +24,7 @@
     "build": "json2ts --unreachableDefinitions --input schema/tm-json-schema-validation.json  --output thing-model.d.ts"
   },
   "devDependencies": {
-    "json-schema-to-typescript": "^10.1.4"
+    "json-schema-to-typescript": "^15.0.4"
   },
   "main": "index.js"
 }

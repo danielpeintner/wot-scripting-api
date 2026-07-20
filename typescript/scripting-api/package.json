@@ -29,7 +29,7 @@
     "build": "json2ts schema/td-json-schema-validation.json | sed -e 's/WoTTDSchema02June2021/ThingDescription/' > thing-description.d.ts"
   },
   "devDependencies": {
-    "json-schema-to-typescript": "^10.1.4"
+    "json-schema-to-typescript": "^15.0.4"
   },
   "bugs": {
     "url": "https://github.com/w3c/wot-scripting-api/issues"
